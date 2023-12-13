@@ -1,3 +1,4 @@
+import Channel from "../pages/channel";
 import HistoryPage from "../pages/history";
 import HomePage from "../pages/home";
 import LibraryPage from "../pages/library";
@@ -35,5 +36,10 @@ export const routes = [
         id: 6,
         path: "/watch",
         element: <WatchPage />,
+    },
+    {
+        id: 7,
+        path: "/channel",
+        element: <Channel />,
     },
 ];

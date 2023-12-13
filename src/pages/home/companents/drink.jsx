@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { favariteDate } from "../../../store/video-data";
 
-const FovariteVideos = () => {
+const DrinkCompanent = () => {
     return (
         <div className='favarit'>
             <div className='favarite__header'>
@@ -17,7 +17,10 @@ const FovariteVideos = () => {
             <div className='favarite__main'>
                 <div className='favarite__list'>
                     {favariteDate.map((item) => (
-                        <Link to={"/video"} className='favarite__list__item' key={item.id}>
+                        <Link
+                            to={"/video"}
+                            className='favarite__list__item'
+                            key={item.id}>
                             <div className='favarite__img'>
                                 {<img src={item.img} alt={item.title} />}
                             </div>
@@ -36,4 +39,4 @@ const FovariteVideos = () => {
     );
 };
 
-export default FovariteVideos;
+export default DrinkCompanent;

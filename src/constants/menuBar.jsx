@@ -44,6 +44,7 @@ export const fmenuBar = [
         id: 1,
         title: "Gussie Singleton",
         img: "https://img.goodfon.ru/original/1920x1280/0/d3/devushka-krasivaya-lico-golubye.jpg",
+        path:"/channel"
     },
     {
         id: 2,
