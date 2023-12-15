@@ -1,6 +1,6 @@
 import { Link, NavLink, Route, Routes } from "react-router-dom";
 import { Icons } from "../assets/icons";
-import { fmenuBar, menubar } from "../constants/menuBar";
+import { Setting, fmenuBar, menubar } from "../constants/menuBar";
 import { routes } from "../constants/routes";
 import Search from "./search";
 
@@ -32,6 +32,16 @@ const Root = () => {
                             key={item.id}
                             className='root__linkF'>
                             <img src={item.img} alt={item.title} /> {item.title}
+                        </NavLink>
+                    ))}
+                </div>
+                <div className="root__setting">
+                    {Setting.map(item => (
+                        <NavLink
+                            to={item.path}
+                            key={item.id}
+                            className='root__setting'>
+                            <img src={item.img} alt={item.title} /> {item.title} 
                         </NavLink>
                     ))}
                 </div>
