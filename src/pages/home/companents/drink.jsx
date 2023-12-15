@@ -12,7 +12,7 @@ const DrinkCompanent = () => {
                     alt='avatar'
                 />
 
-                <h1>Dollie Blair</h1>
+                <h1>ＷＨＩＴＥɸ</h1>
             </div>
             <div className='favarite__main'>
                 <div className='favarite__list'>
@@ -23,6 +23,9 @@ const DrinkCompanent = () => {
                             key={item.id}>
                             <div className='favarite__img'>
                                 {<img src={item.img} alt={item.title} />}
+                            </div>
+                            <div className="favarite__time">
+                                <h3>{item.time}</h3>
                             </div>
                             <h1 className='favarite__title'>{item.title}</h1>
                             <div className='favarite__info'>

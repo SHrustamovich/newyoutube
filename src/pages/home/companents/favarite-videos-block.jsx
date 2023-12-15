@@ -21,6 +21,9 @@ const FovariteVideos = () => {
                             <div className='favarite__img'>
                                 {<img src={item.img} alt={item.title} />}
                             </div>
+                            <div className="favarite__time">
+                                <h3>{item.time}</h3>
+                            </div>
                             <h1 className='favarite__title'>{item.title}</h1>
                             <div className='favarite__info'>
                                 <span>

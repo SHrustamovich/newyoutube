@@ -1,5 +1,5 @@
 const SubsPage = () => {
-    return <>SunsPage</>;
+    return <>SubsPage</>;
 };
 
 export default SubsPage;
