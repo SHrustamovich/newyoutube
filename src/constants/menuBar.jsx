@@ -120,3 +120,10 @@ export const Setting = [
         icon: <Icons.settings />,
     }
 ]
+export const arrows = [
+    {
+        id: 1, 
+        path: '/arrows',
+        icon: <Icons.arrows/>
+    }
+]

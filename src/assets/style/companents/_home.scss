@@ -19,6 +19,7 @@
         }
     }
     &__list{
+        overflow-x: scroll;
         display: flex;
         align-items: center;
         gap: 40px;
@@ -96,7 +97,7 @@
         border-radius: 12px;
     }
     &__username{
-        margin-left: 250px;
+        margin-left: 220px;
     }   
     &__img{
         width: 540px;
@@ -106,6 +107,7 @@
             height: 100%;
             object-fit: cover;
             border-radius: 15px;
+            cursor: pointer;
         }
         &__info{
             color: #C2C2C2;
