@@ -7,12 +7,12 @@ const DrinkCompanent = () => {
             <div className='favarite__header'>
                 <img
                     src={
-                        "https://sportishka.com/uploads/posts/2022-11/1667564038_1-sportishka-com-p-gollandiya-dostoprimechatelnosti-krasivo-1.jpg"
+                        "https://static1.tgstat.ru/channels/_0/1c/1c5b44d687b889b1e39237b1dbaff800.jpg"
                     }
                     alt='avatar'
                 />
 
-                <h1>ＷＨＩＴＥɸ</h1>
+                <h1>Leah Berry</h1>
             </div>
             <div className='favarite__main'>
                 <div className='favarite__list'>
