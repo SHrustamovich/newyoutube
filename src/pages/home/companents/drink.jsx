@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { favariteDate } from "../../../store/video-data";
+import { cars } from "../../../store/cars";
 
 const DrinkCompanent = () => {
     return (
@@ -7,16 +7,17 @@ const DrinkCompanent = () => {
             <div className='favarite__header'>
                 <img
                     src={
-                        "https://sportishka.com/uploads/posts/2022-11/1667564038_1-sportishka-com-p-gollandiya-dostoprimechatelnosti-krasivo-1.jpg"
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxpMQ0UjuN63hb9KkHPO4Cdvr0Ea_KnucCbw&usqp=CAU"
                     }
                     alt='avatar'
                 />
 
-                <h1>ＷＨＩＴＥɸ</h1>
+                <h1>Cars & New Technologies</h1>
+                    <button className="favarite__btn">Subscribe 2.3m</button>
             </div>
             <div className='favarite__main'>
                 <div className='favarite__list'>
-                    {favariteDate.map((item) => (
+                    {cars.map((item) => (
                         <Link
                             to={"/video"}
                             className='favarite__list__item'
@@ -39,7 +40,7 @@ const DrinkCompanent = () => {
                 </div>
             </div>
         </div>
-    );
-};
+    )
+}
 
 export default DrinkCompanent;

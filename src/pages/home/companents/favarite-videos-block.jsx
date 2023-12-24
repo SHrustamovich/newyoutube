@@ -3,11 +3,11 @@ import { favariteDate } from "../../../store/video-data";
 
 const FovariteVideos = () => {
     return (
-        <div className='favarit'>
+        <div className='favarite'>
             <div className='favarite__header'>
                 <img
                     src={
-                        "https://sportishka.com/uploads/posts/2022-11/1667564038_1-sportishka-com-p-gollandiya-dostoprimechatelnosti-krasivo-1.jpg"
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZJNNh7a2Ux_Dmo9kmP07dcXLpKhyLk5AbKw&usqp=CAU"
                     }
                     alt='avatar'
                 />

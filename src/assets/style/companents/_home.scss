@@ -6,6 +6,7 @@
 }
 
 .favarite{
+    overflow-x: hidden;
     &__header{
         display: flex;
         align-items: center;
@@ -19,6 +20,7 @@
         }
     }
     &__list{
+        overflow-x: hidden;
         display: flex;
         align-items: center;
         gap: 40px;
@@ -60,10 +62,29 @@
         line-height: normal;
         color: #C2C2C2;
     }
+    &__btn{
+    width: 154px;
+    font-size: 16px;
+    margin-left: 740px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    color: #fff;
+    background: #F00;
+    outline: none;
+    border: none;
+    transition: 0.4s;
+ }
+ &__btn:hover{
+     color: #F00;
+     background: #fff;
+     border: 1px solid #F00;
+     transform: scale(1.2);
+ }
 }
 
 .recom{
     margin-top: 50px;
+    overflow-y: hidden;
     &__title{
         margin-bottom: 30px;
         margin-top: 10px;
@@ -96,7 +117,7 @@
         border-radius: 12px;
     }
     &__username{
-        margin-left: 250px;
+        margin-left: 220px;
     }   
     &__img{
         width: 540px;
@@ -106,6 +127,7 @@
             height: 100%;
             object-fit: cover;
             border-radius: 15px;
+            cursor: pointer;
         }
         &__info{
             color: #C2C2C2;

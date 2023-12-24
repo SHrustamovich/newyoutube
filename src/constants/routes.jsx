@@ -1,3 +1,4 @@
+import Arrows from "../pages/arrows";
 import Channel from "../pages/channel";
 import FavouritePage from "../pages/favourite";
 import Game from "../pages/game";
@@ -78,4 +79,10 @@ export const routes = [
         path: "/settings",
         element: <Setting />,
     },
+    {
+        id: 14,
+        path: "/arrows",
+        element: <Arrows />,
+    },
 ];
+

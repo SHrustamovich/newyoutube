@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { recomData } from "../../../store/recom";
 
 const Recommend = () => {
@@ -7,7 +8,7 @@ const Recommend = () => {
             <div className="recom__list">
                 {
                     recomData.map(item => (
-                        <div className="recom__item" key={item.id}>
+                        <Link to={"/video"} className="recom__item" key={item.id}>
                             <div className="recom__img">
                                 <img src={item.img} alt={item.title} />
                             </div>
@@ -19,7 +20,7 @@ const Recommend = () => {
                                 <span>{item.followers} {item.date}</span>
                                 <span className="recom__username">{item.username}</span>
                             </div>
-                        </div>
+                        </Link>
                     ))
                 }
             </div>
