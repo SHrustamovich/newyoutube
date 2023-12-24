@@ -7,6 +7,7 @@ export const cars = [
         followers: "27m views",
         date: "1 hours ago",
         username: "ＷＨＩＴＥɸ",
+        path: "/video"
     },
     {
         id: 2,
@@ -24,6 +25,24 @@ export const cars = [
         time: "4:15",
         followers: "39m views",
         date: "2 month ago",
+        username: "ＷＨＩＴＥɸ",
+    },
+    {
+        id: 4,
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnWblUXEz6fvkxKrMs8BWtlNA5s_0JYTRVThfg6zs_cBTmgQD_A3tZQbti7QXveqV2WvA&usqp=CAU",
+        title: "Lamborghini Hybrid",
+        time: "4:15",
+        followers: "9.8m views",
+        date: "29 days ago",
+        username: "ＷＨＩＴＥɸ",
+    },
+     {
+        id: 5,
+        img: "https://www.bmw-me.com/content/dam/bmw/common/topics/offers-and-services/bmw-special-sales-2020/protection-vehicle/bmw-css-7-series-protection-ms-new-standard.jpg",
+        title: "BMWM",
+        time: "4:15",
+        followers: "1.7m views",
+        date: "1 month ago",
         username: "ＷＨＩＴＥɸ",
     },
     {

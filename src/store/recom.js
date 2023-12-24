@@ -1,13 +1,13 @@
 export const recomData = [
     {
         id: 1,
-<<<<<<< HEAD
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc63c54j42OXaxRak3L228R-Mj1cz1sBbVdA&usqp=CAUg",
         title: "Starfield PC requirements",
         time: "3:40",
         followers: "34k views.",
         date: "5 months ago",
         username: "Gussie French",
+        path: "/video"
     },
     {
         id: 2,
@@ -16,7 +16,9 @@ export const recomData = [
         time: "3:52",
         followers: "54k views.",
         date: "1 weeks ago",
-        username: "Edward Osborne",
+        username: "Edward Osborne", 
+        path: "/video"
+
     },
     {
         id: 3,
@@ -26,31 +28,7 @@ export const recomData = [
         followers: "125k views.",
         date: "5 weeks ago",
         username: "Dollie Blair",
-=======
-        img: "https://i.ytimg.com/vi/9zjzjvD6eEA/maxresdefault.jpg",
-        title: "Dude You Re Getting A Telescope",
-        time: "6:36",
-        followers: "75m views",
-        date: "9 months ago",
-        username: "_Bobojon_",
+        path: "/video"
     },
-    {
-        id: 2,
-        img: "https://daryo.uz/cache/2022/03/photo_2022-03-08_05-53-39-650x464.jpg",
-        title: "Moon Gazing",
-        time: "6:36",
-        followers: "75m views",
-        date: "9 months ago",
-        username: "_Bobojon_",
-    },
-    {
-        id: 3,
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZJNNh7a2Ux_Dmo9kmP07dcXLpKhyLk5AbKw&usqp=CAU",
-        title: "Margaret Phelps",
-        time: "6:36",
-        followers: "677k views",
-        date: "1 weeks ago",
-        username: "_Bobojon_",
->>>>>>> 16e5b566cbd6c0e19210dcc04904a97e0c115fad
-    },
+    
 ];

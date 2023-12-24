@@ -3,7 +3,7 @@ import { favariteDate } from "../../../store/video-data";
 
 const FovariteVideos = () => {
     return (
-        <div className='favarit'>
+        <div className='favarite'>
             <div className='favarite__header'>
                 <img
                     src={

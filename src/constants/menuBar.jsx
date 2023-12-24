@@ -80,26 +80,31 @@ export const fmenuBar = [
         id: 2,
         title: "Nora Francis",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW6BSQK2OLqEdzMRYeIr4MZRq22NQaJZEvmA&usqp=CAU",
+        path:"/channel"
     },
     {
         id: 3,
         title: "Belle Briggs",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRep-Go-J9GvCG3zftW2bgfixj4MKsB0UAydg&usqp=CAU",
+        path:"/channel"
     },
     {
         id: 4,
         title: "Eunice Cortez",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8DKCRrRdehi5S5LFPLOApDLrJ1sb_S3-2gg&usqp=CAU",
+        path:"/channel"
     },
     {
         id: 5,
         title: "Emma Hanson",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWnGHyvRNB_X0wnU7eR0BcIpmLG4yVxjU5oQ&usqp=CAU",
+        path:"/channel"
     },
     {
         id: 6,
-        title: "Leah Berry",
+        title: "Botir Ziyatov",
         img: "https://static1.tgstat.ru/channels/_0/1c/1c5b44d687b889b1e39237b1dbaff800.jpg",
+        path:"/channel"
     },
 ];
 export const Setting = [
@@ -111,7 +116,7 @@ export const Setting = [
     }
 ]
 export const arrows = [
-    {
+       {
         id: 1, 
         path: '/arrows',
         icon: <Icons.arrows/>

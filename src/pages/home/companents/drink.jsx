@@ -7,20 +7,13 @@ const DrinkCompanent = () => {
             <div className='favarite__header'>
                 <img
                     src={
-<<<<<<< HEAD
-                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf0wspC0tdJVSIyDCoj-L97EVsBHRhtuPjlA&usqp=CAU"
-=======
-                        "https://static1.tgstat.ru/channels/_0/1c/1c5b44d687b889b1e39237b1dbaff800.jpg"
->>>>>>> 16e5b566cbd6c0e19210dcc04904a97e0c115fad
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxpMQ0UjuN63hb9KkHPO4Cdvr0Ea_KnucCbw&usqp=CAU"
                     }
                     alt='avatar'
                 />
 
-<<<<<<< HEAD
                 <h1>Cars & New Technologies</h1>
-=======
-                <h1>Leah Berry</h1>
->>>>>>> 16e5b566cbd6c0e19210dcc04904a97e0c115fad
+                    <button className="favarite__btn">Subscribe 2.3m</button>
             </div>
             <div className='favarite__main'>
                 <div className='favarite__list'>
@@ -47,7 +40,7 @@ const DrinkCompanent = () => {
                 </div>
             </div>
         </div>
-    );
-};
+    )
+}
 
 export default DrinkCompanent;
